@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Magic</title>
+  <style>
+    /* Navbar styles */
+    #search_field {
+      border: 1px solid #ddd;
+      border-radius: 0;
+    }
+
+    #search_btn {
+      background-color: #4a4e69;
+      color: #fff;
+      border-radius: 0;
+    }
+
+    #search_btn:hover {
+      background-color: #6c757d;
+    }
+
+    /* Cart button styles */
+    a[routerLink="/cart"] {
+      display: inline-flex;
+      align-items: center;
+      background-color: #ffd700; /* Yellow color for cart */
+      padding: 5px 10px; /* Reduced padding for a more compact look */
+      border-radius: 5px;
+      color: #333;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    #cart {
+      color: #333;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    #cart_count {
+      display: inline-block;
+      background-color: #ff6347; /* Tomato red for contrast */
+      color: #fff;
+      padding: 2px 6px; /* Smaller padding for cart count */
+      border-radius: 12px; /* Creates a pill shape */
+      font-size: 0.75rem; /* Smaller font for cart count */
+    }
+
+    /* Login/Register button styles */
+    .btn-primary {
+      background-color: #28a745; /* Green color */
+      color: #fff;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #218838; /* Darker green on hover */
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: #f8f9fa;
+      padding: 1rem;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar row">
+    <div class="col-12 col-md-3">
+      <div class="navbar-brand">
+        <a routerLink="/"><img width="150px" src="/assets/logo1.png" /></a>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 mt-2 mt-md-0">
+      <div class="input-group">
+        <input
+          type="text"
+          id="search_field"
+          class="form-control"
+          placeholder="Enter Product Name ..."
+          [(ngModel)]="searchText"
+          (input)="clearSearch()"
+          (keydown.enter)="searchByEnterKey()"
+        />
+        <div class="input-group-append">
+          <button (click)="search()" id="search_btn" class="btn">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-3 mt-4 mt-md-0 text-center">
+      <a routerLink="/cart" class="ml-3">
+        <span id="cart">Cart</span>
+        <span id="cart_count">{{cartCount}}</span>
+      </a>
+      <button routerLink="/login" class="btn btn-primary ml-3">Login/Register</button>
+      <button (click)="logout()" class="btn btn-danger ml-2">Logout</button>
+
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>
+
+  <footer class="py-1">
+    <p class="text-center text-dark mt-1">
+      © Book Magic - 2024
+    </p>
+  </footer>
+
+</body>
+</html>

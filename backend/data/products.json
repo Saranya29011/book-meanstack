@@ -1,0 +1,142 @@
+[
+  {
+    "name": "The Great Gatsby",
+    "price": 299.00,
+    "description": "A classic novel by F. Scott Fitzgerald about love, wealth, and the American Dream.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "image": "/images/products/book1.jpg"
+      }
+    ],
+    "category": "Fiction",
+    "seller": "Classic Reads",
+    "stock": 50
+  },
+  {
+    "name": "To Kill a Mockingbird",
+    "price": 350.00,
+    "description": "Harper Lee's timeless story of courage, morality, and justice in the American South.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "image": "/images/products/book2.jpg"
+      }
+    ],
+    "category": "Fiction",
+    "seller": "Literary Haven",
+    "stock": 40
+  },
+  {
+    "name": "1984",
+    "price": 280.00,
+    "description": "George Orwell's dystopian novel about totalitarianism and surveillance.",
+    "ratings": 4.9,
+    "images": [
+      {
+        "image": "/images/products/book3.jpg"
+      }
+    ],
+    "category": "Dystopian",
+    "seller": "Classic Reads",
+    "stock": 45
+  },
+  {
+    "name": "Sapiens: A Brief History of Humankind",
+    "price": 450.00,
+    "description": "Yuval Noah Harari's exploration of human history, from evolution to modern society.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "image": "/images/products/book4.jpg"
+      }
+    ],
+    "category": "History",
+    "seller": "Knowledge Hub",
+    "stock": 30
+  },
+  {
+    "name": "The Alchemist",
+    "price": 320.00,
+    "description": "Paulo Coelho's inspiring story of a shepherd's journey to follow his dreams.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "image": "/images/products/book5.jpg"
+      }
+    ],
+    "category": "Philosophical Fiction",
+    "seller": "Dreamscape Books",
+    "stock": 35
+  },
+  {
+    "name": "Becoming",
+    "price": 500.00,
+    "description": "Michelle Obama's memoir about her journey from Chicago to the White House.",
+    "ratings": 4.9,
+    "images": [
+      {
+        "image": "/images/products/book6.jpg"
+      }
+    ],
+    "category": "Biography",
+    "seller": "Inspirational Reads",
+    "stock": 25
+  },
+  {
+    "name": "Atomic Habits",
+    "price": 420.00,
+    "description": "James Clear's guide on how to build good habits and break bad ones.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "image": "/images/products/book7.jpg"
+      }
+    ],
+    "category": "Self-Help",
+    "seller": "Success Path",
+    "stock": 50
+  },
+  {
+    "name": "Educated",
+    "price": 360.00,
+    "description": "Tara Westover's memoir about overcoming an abusive upbringing to pursue education.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "image": "/images/products/book8.jpg"
+      }
+    ],
+    "category": "Memoir",
+    "seller": "True Stories",
+    "stock": 20
+  },
+  {
+    "name": "The Power of Now",
+    "price": 300.00,
+    "description": "Eckhart Tolle's guide to living in the present and finding peace.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "image": "/images/products/book9.jpg"
+      }
+    ],
+    "category": "Self-Help",
+    "seller": "Mindful Reads",
+    "stock": 40
+  },
+  {
+    "name": "A Brief History of Time",
+    "price": 380.00,
+    "description": "Stephen Hawking's exploration of time, space, and the universe.",
+    "ratings": 4.9,
+    "images": [
+      {
+        "image": "/images/products/book10.jpg"
+      }
+    ],
+    "category": "Science",
+    "seller": "Knowledge Hub",
+    "stock": 15
+  }
+]

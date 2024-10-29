@@ -1,0 +1,11 @@
+_id,name,price,description,ratings,images[0].image,category,seller,stock
+671386dd531a87f87506b120,Organic Red Apples,102.5,"Freshly picked organic red apples, full of nutrients and antioxidants.",4.8,/images/products/1.jpg,Fruits,Farm Fresh,20
+671386dd531a87f87506b121,Organic Broccoli,148,"Green organic broccoli, rich in vitamins and fiber, perfect for a healthy diet.",4.7,/images/products/2.jpg,Vegetables,Green Grocer,15
+671386dd531a87f87506b122,Fresh Strawberries,205,"Sweet and juicy strawberries, perfect for snacking or desserts.",4.9,/images/products/3.jpg,Fruits,Berry Delight,25
+671386dd531a87f87506b123,Organic Carrots,90,"Crunchy organic carrots, a great source of beta-carotene and fiber.",4.6,/images/products/4.jpg,Vegetables,Farm Fresh,30
+671386dd531a87f87506b124,Ripe Avocados,170,"Creamy, ripe avocados, rich in healthy fats and perfect for salads or spreads.",4.8,/images/products/5.jpg,Fruits,Green Grocer,12
+671386dd531a87f87506b125,Sweet Potatoes,148.75,"Organic sweet potatoes, packed with vitamins and perfect for roasting or mashing.",4.7,/images/products/6.jpg,Vegetables,Healthy Harvest,22
+671386dd531a87f87506b126,Bananas,42,"Ripe and ready-to-eat bananas, great for a quick snack or smoothies.",4.9,/images/products/7.jpg,Fruits,Tropical Treats,50
+671386dd531a87f87506b127,Fresh Spinach,109,"Organic spinach leaves, rich in iron and perfect for salads or cooking.",4.6,/images/products/8.jpg,Vegetables,Green Grocer,18
+671386dd531a87f87506b128,Mangoes,234,"Sweet and juicy mangoes, perfect for snacking or making smoothies.",4.8,/images/products/9.jpg,Fruits,Tropical Treats,30
+671386dd531a87f87506b129,Cucumbers,76.5,"Fresh cucumbers, great for salads or refreshing drinks.",4.5,/images/products/10.jpg,Vegetables,Farm Fresh,25

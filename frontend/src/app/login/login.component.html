@@ -1,0 +1,24 @@
+<!-- login.component.html -->
+<div class="main">
+	<input type="checkbox" id="chk" aria-hidden="true" [(ngModel)]="checked" name="chk">
+	
+	<div class="signup">
+	  <form (ngSubmit)="onSignup($event)">
+		<label for="chk" aria-hidden="true">Sign up</label>
+		<input type="text" name="txt" placeholder="User name" required="" [(ngModel)]="signupData.username">
+		<input type="email" name="email" placeholder="Email" required="" [(ngModel)]="signupData.email">
+		<input type="number" name="broj" placeholder="Phone Number" required="" [(ngModel)]="signupData.phone">
+		<input type="password" name="pswd" placeholder="Password" required="" [(ngModel)]="signupData.password">
+		<button type="submit">Sign up</button>
+	  </form>
+	</div>
+  
+	<div class="login">
+	  <form (ngSubmit)="onLogin($event)">
+		<label for="chk" aria-hidden="true">Login</label>
+		<input type="email" name="email" placeholder="Email" required="" [(ngModel)]="loginData.email">
+		<input type="password" name="pswd" placeholder="Password" required="" [(ngModel)]="loginData.password">
+		<button type="submit">Login</button>
+	  </form>
+	</div>
+  </div>
